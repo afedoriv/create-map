@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Create. Map.</title>
+        <link
+            type="ico"
+            sizes="64x64"
+            rel="icon"
+            href="src/img/favicon/favicon.ico"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Nanum+Myeongjo:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+            integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+            crossorigin=""
+        />
+        <link rel="stylesheet" href="src/css/style.css" />
+
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js"></script>
+        <script
+            defer
+            src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+            crossorigin=""
+        ></script>
+        <script defer src="src/js/script.js"></script>
+    </head>
+
+    <body>
+        <section class="container">
+            <header class="header">
+                <h3>
+                    Create. Map.
+                    <img
+                        id="logo-icon"
+                        src="src/img/logo/logo.png"
+                        alt="Logo Icon"
+                        height="50px"
+                        width="22px"
+                    />
+                </h3>
+            </header>
+
+            <p id="instructions" class="hidden"></p>
+
+            <ul id="locations">
+                <form id="form" class="hidden" action="submit">
+                    <img
+                        id="form-icon"
+                        src="src/img/icons/icon-blue.png"
+                        alt="Location Marker Icon"
+                        height="31px"
+                        width="13.64px"
+                    />
+
+                    <label class="form-label" for="form">
+                        Select category and type, add a comment and press 'Enter'
+                    </label>
+
+                    <select id="input-category">
+                        <option value="blue" selected>Blue</option>
+                        <option value="pink">Pink</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+
+                    <select id="input-type">
+                        <option value="fav" selected>Favorite</option>
+                        <option value="visit">Visit</option>
+                        <option value="avoid">Avoid</option>
+                    </select>
+
+                    <input
+                        id="input-comment"
+                        type="text"
+                        placeholder="Add a comment here..."
+                        autocomplete="off"
+                    />
+                </form>
+            </ul>
+
+            <button id="btn-reset" class="hidden">
+                <span>Clear</span>
+            </button>
+
+            <section id="map">
+                <p id="message-line-one"></p>
+
+                <img
+                    id="loader"
+                    class="hidden"
+                    src="src/img/icons/icon-loader.png"
+                    alt="Loader Icon"
+                    width="100%"
+                />
+
+                <p id="message-line-two"></p>
+            </section>
+
+            <footer class="footer">
+                <p>
+                    <img
+                        src="src/img/logo/logo.png"
+                        alt="Logo Icon"
+                        height="17.6px"
+                        width="7.7px"
+                    />
+                    <span>Create. Map.</span>
+                    2023
+                </p>
+            </footer>
+        </section>
+    </body>
+</html>

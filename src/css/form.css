@@ -1,0 +1,119 @@
+
+#form {
+    background-color: var(--color-basic-gray-light);
+    border-radius: var(--border-radius-md);
+    margin-bottom: var(--margin-md);
+    padding: 5px var(--margin-lg);
+    max-height: 54px;
+    display: grid;
+    grid-template-columns: min-content 1fr 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    transition: all 0.5s, transform 1ms;
+}
+#form.hidden {
+    margin-bottom: 0;
+    padding-block: 0;
+    height: 0;
+    opacity: 0;
+    transform: translateY(-160px);
+}
+#form-icon {
+    margin-right: var(--margin-md);
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    align-self: center;
+}
+.form-label, 
+#input-category, 
+#input-type, 
+#input-comment, 
+#input-comment::placeholder {
+    color: var(--color-basic-blue-dark);
+    font-family: var(--font-family-secondary);
+    font-size: 14px;
+    font-weight: var(--font-weight-lt);
+}
+#input-category, 
+#input-type, 
+#input-comment, 
+#input-comment::placeholder {
+    background-color: transparent;
+    outline: none;
+}
+.form-label {
+    line-height: 22px;
+    white-space: nowrap;
+    grid-column: 2 / 5;
+    grid-row: 1 / 2;
+}
+#input-category {
+    border: none;
+    margin-right: 5px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+#input-type {
+    border: none;
+    margin-right: 5px;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+#input-comment {
+    border: 1px solid var(--color-basic-gray);
+    border-radius: var(--border-radius-sm);
+    padding-left: var(--margin-md);
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+
+@media all and (max-width: 540px) {
+    #form {
+        max-height: 44px;
+        padding-block: 1px;
+    }
+    .form-label {
+        line-height: 21px;
+    }
+    #form-icon {
+        height: 25.3px;
+        width: 11.1px;
+    }
+    .form-label, 
+    #input-category, 
+    #input-type, 
+    #input-comment, 
+    #input-comment::placeholder {
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 375px) {
+    #form {
+        padding-inline: var(--margin-md);
+    }
+    #form-icon {
+        margin-right: 5px;
+    }
+}
+@media all and (max-width: 320px) {
+    #form {
+        padding-inline: var(--margin-xs);
+    }
+    #form-icon {
+        margin-inline: 2px;
+    }
+    .form-label, 
+    #input-category, 
+    #input-type, 
+    #input-comment, 
+    #input-comment::placeholder {
+        font-size: 11px;
+    }
+    #input-category, 
+    #input-type {
+        margin-right: 0px;
+    }
+    #input-comment {
+        padding-left: var(--margin-xs);
+    }
+}
