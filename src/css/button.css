@@ -1,57 +1,55 @@
-
 #btn-reset {
-    background-color: transparent;
-    border: none;
-    color: var(--color-basic-gray-light);
-    cursor: pointer;
-    font-family: var(--font-family-secondary);
-    font-size: 15px;
-    font-weight: var(--font-weight-rg);
-    letter-spacing: 0.2px;
-    margin: var(--margin-lg);
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    justify-self: end;
-    transition: all 0.3s ease;
+	background-color: transparent;
+	border: none;
+	color: var(--color-basic-gray-light);
+	cursor: pointer;
+	font-family: var(--font-family-secondary);
+	font-size: 15px;
+	font-weight: var(--font-weight-rg);
+	letter-spacing: 0.2px;
+	margin: var(--margin-lg);
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
+	justify-self: end;
+	transition: all 0.3s ease;
 }
 #btn-reset:hover {
-    transform: translateY(-10%);
+	transform: translateY(-10%);
 }
 #btn-reset:active {
-    opacity: 0.7;
+	opacity: 0.7;
 }
 #btn-reset span {
-    border-bottom: 1px solid var(--color-basic-gray-light);
-    padding: 2px;
+	border-bottom: 1px solid var(--color-basic-gray-light);
+	padding: 2px;
 }
-
 
 @media all and (max-width: 912px) {
-    #btn-reset {
-        margin: 0 var(--margin-xl) var(--margin-lg);
-        grid-column: 1;
-        grid-row: 4 / 5;
-    }
+	#btn-reset {
+		margin: 0 var(--margin-xl) var(--margin-lg);
+		grid-column: 1;
+		grid-row: 4 / 5;
+	}
 }
 @media all and (max-width: 540px) {
-    #btn-reset {
-        font-size: 13px;
-        font-weight: var(--font-weight-lt);
-        margin: 0 var(--margin-lg);
-    }
-    #btn-reset span {
-        border-bottom: 0.5px solid var(--color-basic-gray-light);
-        padding: 1px;
-    }
+	#btn-reset {
+		font-size: 13px;
+		font-weight: var(--font-weight-lt);
+		margin: 0 var(--margin-lg);
+	}
+	#btn-reset span {
+		border-bottom: 0.5px solid var(--color-basic-gray-light);
+		padding: 1px;
+	}
 }
 @media all and (max-width: 375px) {
-    #btn-reset {
-        margin: 0 var(--margin-md);
-    }
+	#btn-reset {
+		margin: 0 var(--margin-md);
+	}
 }
 @media all and (max-width: 320px) {
-    #btn-reset {
-        font-size: 12px;
-        margin: 0 var(--margin-sm);
-    }
+	#btn-reset {
+		font-size: 12px;
+		margin: 0 var(--margin-sm);
+	}
 }

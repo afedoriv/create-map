@@ -1,67 +1,65 @@
-
 #map {
-    background-color: var(--color-basic-blue-light);
-    border-bottom-right-radius: var(--border-radius-md);
-    border-top-right-radius: var(--border-radius-md);
-    grid-column: 2 / 3;
-    grid-row: 1 / 5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+	background-color: var(--color-basic-blue-light);
+	border-bottom-right-radius: var(--border-radius-md);
+	border-top-right-radius: var(--border-radius-md);
+	grid-column: 2 / 3;
+	grid-row: 1 / 5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
 }
 #loader {
-    aspect-ratio: 1/1;
-    width: 46px;
-    position: absolute;
-    left: calc(50% - 23px);
-    top: calc(50% - 23px);
+	aspect-ratio: 1/1;
+	width: 46px;
+	position: absolute;
+	left: calc(50% - 23px);
+	top: calc(50% - 23px);
 }
 #message-line-one,
 #message-line-two {
-    color: var(--color-basic-blue-dark);
-    font-family: var(--font-family-secondary);
-    font-size: 22px;
-    font-weight: var(--font-weight-rg);
-    white-space: nowrap;
-    margin: var(--margin-xl);
+	color: var(--color-basic-blue-dark);
+	font-family: var(--font-family-secondary);
+	font-size: 22px;
+	font-weight: var(--font-weight-rg);
+	white-space: nowrap;
+	margin: var(--margin-xl);
 }
 .rotate {
-    animation: rotate 1s infinite linear;
+	animation: rotate 1s infinite linear;
 }
 
 @keyframes rotate {
-    0% {
-        transform: rotate(0);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
-
 
 @media all and (max-width: 912px) {
-    #map {
-        border-radius: var(--border-radius-md);
-        grid-column: 1;
-        grid-row: 2 / 3;
-    }
+	#map {
+		border-radius: var(--border-radius-md);
+		grid-column: 1;
+		grid-row: 2 / 3;
+	}
 }
 @media all and (max-width: 540px) {
-    #loader {
-        width: 40px;
-        left: calc(50% - 20px);
-    }
-    #message-line-one,
-    #message-line-two {
-        font-size: 16px;
-        margin: var(--margin-lg);
-    }
+	#loader {
+		width: 40px;
+		left: calc(50% - 20px);
+	}
+	#message-line-one,
+	#message-line-two {
+		font-size: 16px;
+		margin: var(--margin-lg);
+	}
 }
 @media all and (max-width: 320px) {
-    #message-line-one,
-    #message-line-two {
-        font-size: 14px;
-    }
+	#message-line-one,
+	#message-line-two {
+		font-size: 14px;
+	}
 }
