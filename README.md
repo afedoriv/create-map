@@ -14,7 +14,7 @@
 
 <br />
 <p align="center">
-    The <strong>Create. Map.</strong> App is a web application that allows the users to log their most and least favorite places, and spots they want to remember or plan to visit by marking the locations on an interactive map.
+    <strong>Create. Map.</strong> is a user-friendly web application tailored for dynamic location mapping, empowering users to log and organize their favorite, least favorite, and planned locations on an interactive map.
   
   <br />
   <br />
@@ -66,19 +66,9 @@ https://github.com/afedoriv/create-map/assets/99702784/6d7af300-06f4-49b1-b261-e
 
 ### Introduction
 
-Create. Map. is a web application that allows the users to log their most and least favorite places, and spots they want to remember or plan to visit by marking the locations on an interactive map. 
+<strong>Create. Map.</strong> is a dynamic web application, designed with a responsive interface for intuitive location mapping. Offering a versatile and personalized solution, it effortlessly manages and visualizes places of interest. Prioritizing simplicity and usability, <strong>Create. Map.</strong> elevates the user experience through color-coded map layers, adjustable zoom levels, and the flexibility to select preferred map tiles. 
 
-This application was created with simplicity, usability, and user-friendly design in mind. 
-
-Create. Map. uses the mobile-friendly map provided by the Leaflet library and the OpenStreetMap data. The user’s position is automatically obtained using geolocation API. The BigDataCloud’s reverse geocoding API transforms the coordinates into precise locations. 
- 
-The application users can select a category, assign a color, and add a comment to each marked location. Every marker is labeled and has a descriptive ‘alt’ attribute and a title to ensure the map’s usability to persons of a wide range of abilities.
-
-The markers are grouped into layers according to the marker color to allow users to easily switch different layers on the map. The users can adjust a zoom level and select a map tile.
-
-In addition, the Create. Map. users can keep a log of all marked locations and see the list at a glance on the sidebar. They can also see all marked places on the map and move the map to a select spot by clicking on the corresponding list item. 
-
-All the data about marked locations is stored in the browser using local storage API and can be deleted by the user. 
+Built with JavaScript, the application leverages the robust Leaflet library, OpenStreetMap data, and BigDataCloud's reverse geocoding API for automatic geolocation retrieval and precise location details. <strong>Create. Map.</strong> is an efficient and user-friendly choice for dynamic and personalized mapping.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +91,7 @@ All the data about marked locations is stored in the browser using local storage
 - [GSAP](https://greensock.com/gsap/) - GreenSock Animation Platform for smooth animations.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - The standard markup language for creating web pages and web applications.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Cascading Style Sheets for styling web pages.
-- [Figma](https://www.figma.com/) - A collaborative interface design tool used to create custom markers and icons for the map.
+- [Figma](https://www.figma.com/) - A collaborative interface design tool used to create **custom markers** and **icons** for the application.
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,23 +108,23 @@ All the data about marked locations is stored in the browser using local storage
 
 ## Installation
 
-Get started with the **Create. Map.** App by following these steps to set up and run the project locally:
+Get started with the Create. Map. App by following these steps to set up and run the project locally:
 
 <br />
 
-1. **Clone the Repository:**
+1. Clone the Repository:
 
     ```bash
     git clone https://github.com/afedoriv/create-map.git
     ```
 
-2. **Navigate to the Project Directory:**
+2. Navigate to the Project Directory:
 
     ```bash
     cd create-map
     ```
 
-3. **Open in Browser:**
+3. Open in Browser:
 
     Open the **`index.html`** file in your preferred web browser.
 
@@ -152,12 +142,12 @@ Get started with the **Create. Map.** App by following these steps to set up and
 
 ## Acknowledgments
 
-- **Leaflet:** The pivotal mapping library that forms the backbone of the application and underpins the interactive features of **Create. Map.**
+- **Leaflet:** The pivotal mapping library that forms the backbone of the application and underpins the interactive features of Create. Map.
 - **OpenStreetMap:** The collaborative platform supplying essential geospatial data for accurate location representation.
 - **BigDataCloud:** Facilitating precise location translation through their reverse geocoding API.
-- **MapTiler:** The provider of map tiles, contributing to the visually appealing and dynamic map experience within **Create. Map.**
+- **MapTiler:** The provider of map tiles, contributing to the visually appealing and dynamic map experience within Create. Map.
 - **Netlify:** Enabling seamless deployment and hosting, ensuring global accessibility and reliability.
-- **New York Font by Artem Nevsky:** Enhancing the visual aesthetics of Create. Map. with a distinctive and stylish font.
+- **New York Font by Artem Nevsky:** Enhancing the visual aesthetics of the application with a distinctive and stylish font.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
