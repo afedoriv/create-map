@@ -1,10 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/alina-fedoriv-89868720b/)
-
-<br />
 <a href="https://alinafedoriv-create-map.netlify.app/" target="_blank">
     <img src="src/img/icons/icon-orange.png" alt="Logo" width="35" height="80">
 </a>
@@ -40,7 +36,7 @@
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#project-links">Project Links</a></li>
   </ol>
 </details>
 
@@ -66,7 +62,7 @@ https://github.com/afedoriv/create-map/assets/99702784/6d7af300-06f4-49b1-b261-e
 
 ### Introduction
 
-<strong>Create. Map.</strong> is a dynamic web application, designed with a responsive interface for intuitive location mapping. Offering a versatile and personalized solution, it effortlessly manages and visualizes places of interest. Prioritizing simplicity and usability, <strong>Create. Map.</strong> elevates the user experience through color-coded map layers, adjustable zoom levels, and the flexibility to select preferred map tiles. 
+<strong>Create. Map.</strong> is a dynamic web application, designed with a responsive interface for intuitive location mapping. Offering a versatile and personalized solution, it effortlessly manages and visualizes places of interest. Prioritizing simplicity and usability, <strong>Create. Map.</strong> elevates the user experience through color-coded map layers, adjustable zoom levels, and the flexibility to select preferred map tiles.
 
 Built with JavaScript, the application leverages the robust Leaflet library, OpenStreetMap data, and BigDataCloud's reverse geocoding API for automatic geolocation retrieval and precise location details. <strong>Create. Map.</strong> is an efficient and user-friendly choice for dynamic and personalized mapping.
 
@@ -86,23 +82,23 @@ Built with JavaScript, the application leverages the robust Leaflet library, Ope
 <br />
 <br />
 
-- [JavaScript](https://www.javascript.com/) - A powerful scripting language for web development.
-- [Leaflet](https://leafletjs.com/) - A leading open-source JavaScript library for interactive maps.
-- [GSAP](https://greensock.com/gsap/) - GreenSock Animation Platform for smooth animations.
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - The standard markup language for creating web pages and web applications.
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Cascading Style Sheets for styling web pages.
-- [Figma](https://www.figma.com/) - A collaborative interface design tool used to create **custom markers** and **icons** for the application.
-  
+-   [JavaScript](https://www.javascript.com/) - A powerful scripting language for web development.
+-   [Leaflet](https://leafletjs.com/) - A leading open-source JavaScript library for interactive maps.
+-   [GSAP](https://greensock.com/gsap/) - GreenSock Animation Platform for smooth animations.
+-   [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - The standard markup language for creating web pages and web applications.
+-   [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Cascading Style Sheets for styling web pages.
+-   [Figma](https://www.figma.com/) - A collaborative interface design tool used to create **custom markers** and **icons** for the application.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Key Features
 
-- **Interactive Mapping**: Mark and categorize locations effortlessly on an interactive map.
-- **Color-Coded Categories**: Assign distinct colors (Blue, Pink, Yellow) for quick identification of different location types.
-- **Commenting**: Add comments to each marked location, providing additional context and details.
-- **Responsive Design**: Enjoy a seamless experience on various devices with the responsive design.
-- **Geolocation Support**: The application starts at your location, ensuring a personalized and relevant starting point.
-- **Persistent Storage**: Utilizes local storage for seamless data persistence between sessions.
+-   **Interactive Mapping**: Mark and categorize locations effortlessly on an interactive map.
+-   **Color-Coded Categories**: Assign distinct colors (Blue, Pink, Yellow) for quick identification of different location types.
+-   **Commenting**: Add comments to each marked location, providing additional context and details.
+-   **Responsive Design**: Enjoy a seamless experience on various devices with the responsive design.
+-   **Geolocation Support**: The application starts at your location, ensuring a personalized and relevant starting point.
+-   **Persistent Storage**: Utilizes local storage for seamless data persistence between sessions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,19 +138,18 @@ Get started with the Create. Map. App by following these steps to set up and run
 
 ## Acknowledgments
 
-- **Leaflet:** The pivotal mapping library that forms the backbone of the application and underpins the interactive features of Create. Map.
-- **OpenStreetMap:** The collaborative platform supplying essential geospatial data for accurate location representation.
-- **BigDataCloud:** Facilitating precise location translation through their reverse geocoding API.
-- **MapTiler:** The provider of map tiles, contributing to the visually appealing and dynamic map experience within Create. Map.
-- **Netlify:** Enabling seamless deployment and hosting, ensuring global accessibility and reliability.
-- **New York Font by Artem Nevsky:** Enhancing the visual aesthetics of the application with a distinctive and stylish font.
+-   **Leaflet:** The pivotal mapping library that forms the backbone of the application and underpins the interactive features of Create. Map.
+-   **OpenStreetMap:** The collaborative platform supplying essential geospatial data for accurate location representation.
+-   **BigDataCloud:** Facilitating precise location translation through their reverse geocoding API.
+-   **MapTiler:** The provider of map tiles, contributing to the visually appealing and dynamic map experience within Create. Map.
+-   **Netlify:** Enabling seamless deployment and hosting, ensuring global accessibility and reliability.
+-   **New York Font by Artem Nevsky:** Enhancing the visual aesthetics of the application with a distinctive and stylish font.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contact
+## Project Links
 
-Alina Fedoriv - fedoriv2023@gmail.com
-
-Project Link - [https://github.com/afedoriv/create-map.git](https://github.com/afedoriv/create-map.git)
+-   **Live Demo:** [Create. Map. App](https://alinafedoriv-create-map.netlify.app/)
+-   **Project Repository:** [Create. Map. GitHub](https://github.com/afedoriv/create-map)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
